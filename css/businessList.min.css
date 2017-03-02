@@ -1,0 +1,881 @@
+﻿
+.banner {
+    background: #eef0f4
+}
+
+.item {
+    height: 280px
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #E54D4C;
+    border: 1px solid #E54D4C
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    width: 42px;
+    height: 42px;
+    background: rgba(0, 0, 0, .51);
+    top: 40%
+}
+
+.carousel-control.left {
+    left: 5px
+}
+
+.carousel-control.right {
+    right: 5px
+}
+
+.fa-angle-left, .fa-angle-right {
+    font-size: 2em
+}
+
+.bread_nav {
+    margin: 10px 0
+}
+
+.bread_nav h1 {
+    display: inline;
+    font-size: 14px
+}
+
+.bread_nav {
+    color: #CACFDD
+}
+
+.bread_nav > a {
+    color: #CACFDD
+}
+
+.content div {
+    padding: 0
+}
+
+.content_right {
+    position: relative
+}
+
+.content .title {
+    background: #3B99F0 \9;
+    float: left;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+}
+
+.content .title > div {
+    height: 60px;
+    /*color: #fff;*/
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    -width: 190px;
+    -padding-right: 0
+}
+
+/*.content .title input {*/
+    /*border: none;*/
+    /*background: #51A7F4;*/
+    /*height: 30px;*/
+    /*width: 70%;*/
+    /*text-align: left;*/
+    /*-color: #fff*/
+/*}*/
+
+.choose {
+    background: #1268B5 !important;
+    z-index: 1000 !important
+}
+
+li {
+    list-style: none
+}
+
+.hot, .recommend {
+    width: 60px;
+    width: 50px \9;
+    height: 33px;
+    border: none;
+    border-radius: 8px;
+    background: #3A88D2;
+    position: relative;
+    z-index: 100;
+    -color: #fff
+}
+
+.recommend {
+    margin-left: -10px
+}
+
+.meeting_time {
+    width: 400px;
+    background: #ffffff;
+    z-index: 9999991;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    top: 75px;
+    left: 480px;
+    padding: 10px 0 10px 20px;
+    display: none;
+}
+
+.meeting_cat li {
+    width: 24%;
+    display: inline-block;
+    padding-left: 7px;
+    line-height: 35px
+}
+
+.meeting_cat li a {
+    color: #7C8395 !important;
+    font-size: 14px
+}
+
+.content .title div img {
+    position: absolute;
+    bottom: -11px;
+    left: 21%;
+    display: none;
+    z-index: 1001
+}
+
+.meeting_cat li a:hover {
+    color: #3E8DDA !important
+}
+
+.cities {
+    padding: 20px;
+    width: 355px
+}
+
+.cities li a {
+    font-size: 14px;
+    color: #7C8396 !important
+}
+
+.cities li a:hover {
+    color: #3E8DDA !important
+}
+
+.cities li span {
+    color: #000;
+    font-size: 17px;
+    display: block
+}
+
+.cities .hot_city {
+    width: 100%;
+    color: #C2C5D6;
+    font-size: 14px;
+    border-bottom: 1px solid #D8D7DF;
+    padding: 0 0 10px
+}
+
+.hot_city a {
+    color: #7C8395 !important;
+    padding: 0
+}
+
+.cities .letter {
+    width: 100%;
+    line-height: 25px;
+    float: left
+}
+
+.cities .letter a {
+    width: 18%;
+    display: inline-block;
+    line-height: 30px
+}
+
+.cities .letter span {
+    padding: 10px 0
+}
+
+.meeting_time {
+    padding: 10px 0
+}
+
+.meeting_time li {
+    padding: 0 20px;
+    line-height: 30px
+}
+
+.meeting_time li a:hover {
+    color: #feb600 !important;
+}
+
+.meeting_time .rencent {
+    width: 100%;
+    border-bottom: 1px solid #D8D7DF;
+    padding: 20px
+}
+
+.meeting_time .rencent a {
+    color: #7C8395 !important;
+    padding-right: 30px;
+    font-size: 14px;
+    padding-left: 6px;
+
+}
+
+.meeting_time li span {
+    display: block;
+    border-bottom: 1px solid #D8D7DF;
+    color: #000;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+    padding: 10px 5px 3px;
+    margin-bottom: 15px
+}
+
+.meeting_time li a {
+    font-size: 14px;
+    color: #7C8395 !important;
+    padding-right: 28px;
+    padding-left: 5 px；
+}
+
+.calendar {
+    display: inline-block;
+    background: #2B80D0;
+    padding: 7px 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 4%
+}
+
+#start_time {
+    position: absolute;
+    bottom: -17px;
+    width: 100%;
+    height: 43px;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.laydate_body .laydate_y .laydate_yms ul li {
+    width: 50% !important
+}
+
+.email_take {
+    width: 100px
+}
+
+.hot_rec {
+    padding-left: 3% !important
+}
+
+.content_right {
+    width: 78%;
++ width: 76 %;
+    float: left
+}
+
+.content_left {
+    width: 22%;
+    float: left;
+    padding-left: 20px !important;
+    position: relative;
+	margin-top:20px;
+}
+
+.email_take {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background: #3490E7;
+    color: #fff;
+    font-size: 19px;
+    outline: 0;
+    box-shadow: 0 0 1px 1px rgba(132, 132, 132, .4);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    position: relative
+}
+
+.email_take:hover {
+    background: #2e7fcc
+}
+
+#emailTakeForm {
+    width: 94%;
+    padding: 15px;
+    position: absolute;
+    top: 68px;
+    left: 20px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 0 rgba(132, 132, 132, .33);
+    display: none;
+    z-index: 1000
+}
+
+.img {
+    position: absolute;
+    top: 60px;
+    left: 45%;
+    display: none;
+    z-index: 1001
+}
+
+#emailTakeForm input, #emailTakeForm select {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #E9E9F1;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    color: #7C8393;
+    font-size: 15px;
+    padding-top: 8px \9
+}
+
+#emailTakeForm input::-webkit-input-placeholder {
+    color: #7C8393
+}
+
+#emailTakeForm input[name=checkcode] {
+    width: 49%
+}
+
+.post {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #E64D4F;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: 0
+}
+
+.meeting_list {
+    padding: 20px !important;
+    background: #FFF;
+    height: 183px;
+    border-bottom: 1px solid #D8D7DF;
+    border-left: 4px solid rgba(105, 175, 250, 0);
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
++ width: 95 %
+}
+
+.meeting_list:hover {
+    border-left: 4px solid #69AFFA;
+    background: #F2F2F4
+}
+
+.meeting_list:hover .meeting_name a {
+    color: #3B99F0 !important
+}
+
+.meeting_name {
+    color: #5E5E5E !important;
+    font-size: 17px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    margin: 0 0 10px
+}
+
+.meeting_name a {
+    color: #5E5E5E !important
+}
+
+.meeting_des {
+    width: 100%;
+    color: #8C8C8C;
+    height: 40px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.m_time input[name=time] {
+    width: 50%;
+    margin: 0 15px 0 5px
+}
+
+.detail {
+    padding: 0 10px 0 20px !important;
+    border-right: 1px solid #D8D7DF;
+    -width: 450px;
++ width: 57 %
+}
+
+.meeting_tag > a {
+    color: #99A0B1 !important;
+    font-size: 12px;
+    background: #E1E1EB;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px 5px
+}
+
+.addr {
+    padding-top: 8px;
+    margin: 0
+}
+
+.addr span {
+    margin-right: 10%;
+    color: #99A0B1
+}
+
+.addr span a {
+    color: #8C8C8C !important
+}
+
+.price {
+    padding-top: 9px !important
+}
+
+.price p:first-child {
+    height: 80px
+}
+
+.price p {
+    color: #8C8C8C;
+    font-size: 12px;
+    margin-top: 17px
+}
+
+.price p span {
+    color: #E64E50;
+    font-size: 19px
+}
+
+.past {
+    text-align: center;
+    color: #5E5E5E;
+    font-size: 17px;
+    clear: both;
+    padding: 5px 0;
+    border-bottom: 1px solid #E3E7F0
+}
+
+.past span {
+    position: relative;
+    top: 16px;
+    background: #F7F8FB;
+    padding: 0 15px
+}
+
+.guoqi {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.hot_theme {
+    width: 100%;
+    background: #FFF;
+    -border: 1px solid #eee
+}
+
+.app_down, .hot_theme {
+    width: 100%;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 0 7px 0 rgba(132, 132, 132, .33);
+    margin-bottom: 20px;
+    border: 1px solid #eee \9
+}
+
+.hot_theme p:first-child {
+    margin: 0;
+    padding: 0 15px;
+    color: #535A6C;
+    font-size: 16px;
+    line-height: 45px;
+    border-bottom: 1px solid #E6E4EF
+}
+
+.app_down {
+    padding: 10px !important;
+    float: left
+}
+
+.app_down > div {
+    width: 50%;
+    float: left
+}
+
+.app_down > div > p:first-child {
+    color: #39414E;
+    font-size: 14px;
+    padding: 7px;
+    padding: 4px \0;
+    padding-bottom: 0
+}
+
+.app_down > div > a {
+    background: #39414E;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block
+}
+
+.app_down > div > a:hover {
+    background: rgba(57, 65, 78, .61)
+}
+
+.xing {
+    color: red;
+    position: absolute;
+    left: 2%;
+    top: 29px
+}
+
+@media (max-width: 1200px) {
+    .m_time input[name=time] {
+        margin: 0 0 0 5px
+    }
+
+    .hot_rec {
+        padding-left: 0 !important
+    }
+
+    .calendar {
+        padding: 7px 5px
+    }
+}
+
+@media (max-width: 1200px) {
+    .m_time input[name=time] {
+        margin: 0 0 0 5px
+    }
+
+    .hot_rec {
+        padding-left: 0 !important
+    }
+
+    .calendar {
+        padding: 7px 5px
+    }
+}
+
+.not {
+    border: 1px solid red !important
+}
+
+@font-face {
+    font-family: close_font;
+    src: url(http://pic.huodongjia.com/static/css/close_iconfont.ttf)
+}
+
+.close {
+    font-family: close_font;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 18px;
+    line-height: 1 !important
+}
+
+.all_events {
+    width: 100%
+}
+
+.all_city li .select, .m_time li .select, .meeting_cat li .select {
+    color: #3B99F0 !important
+}
+
+.banner {
+    width: 100%;
+    background: 0 0;
+    overflow: hidden;
+    min-width: 1200px
+}
+
+.big_box {
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    z-index: 10;
++ overflow: hidden;
+}
+
+.review_box {
+    position: relative;
+    left: -1200px;
+    transition: all .3s ease-out;
+    width: 9600px
+}
+
+.review_box a {
+    position: relative;
+    float: left;
+    width: 1200px;
+    height: 300px;
+    display: block
+}
+
+.review_box a img {
+    width: 100%;
+    height: 300px
+}
+
+.next, .prev {
+    position: absolute;
+    height: 300px;
+    top: 0;
+    background: rgba(255, 255, 255, .83);
+    background: #fff \0;
+    z-index: 99
+}
+
+.prev {
+    right: 100%
+}
+
+.next {
+    left: 100%
+}
+
+.next a, .prev a {
+    width: 37px;
+    height: 72px;
+    background-image: url(http://pic.huodongjia.com/static/images/index_login_bg.32.png);
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.prev a {
+    background-position: -114px 0
+}
+
+.prev a:hover {
+    background-position: -77px 0
+}
+
+.next a {
+    background-position: -37px 0
+}
+
+.next a:hover {
+    background-position: 0 0
+}
+
+div.jqcloud {
+    font-family: '微软雅黑';
+    font-size: 10px;
+    line-height: normal;
+    text-align: center
+}
+
+div.jqcloud a {
+    font-size: inherit;
+    text-decoration: none
+}
+
+div.jqcloud span {
+    display: inline-block
+}
+
+div.jqcloud span.w10 {
+    font-size: 200%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w9 {
+    font-size: 190%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w8 {
+    font-size: 180%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w7 {
+    font-size: 175%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w6 {
+    font-size: 170%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w5 {
+    font-size: 165%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w4 {
+    font-size: 160%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w3 {
+    font-size: 155%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w2 {
+    font-size: 150%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w1 {
+    font-size: 145%;
+    padding: 5px 2px
+}
+
+div.jqcloud span.w0 {
+    font-size: 140%;
+    padding: 5px 2px
+}
+
+div.jqcloud {
+    color: #09f
+}
+
+div.jqcloud a {
+    color: inherit
+}
+
+div.jqcloud a:hover {
+    color: #0df
+}
+
+div.jqcloud a:hover {
+    color: #0cf
+}
+
+div.jqcloud span.w10 {
+    color: #1067C6
+}
+
+div.jqcloud span.w9 {
+    color: #116fd5
+}
+
+div.jqcloud span.w8 {
+    color: #1270d8
+}
+
+div.jqcloud span.w7 {
+    color: #579AE8
+}
+
+div.jqcloud span.w6 {
+    color: #579AE8
+}
+
+div.jqcloud span.w5 {
+    color: #579AE8
+}
+
+div.jqcloud span.w4 {
+    color: #8DC2F8
+}
+
+div.jqcloud span.w3 {
+    color: #8DC2F8
+}
+
+div.jqcloud span.w2 {
+    color: #8DC2F8
+}
+
+div.jqcloud span.w1 {
+    color: #8DC2F8
+}
+
+div.jqcloud {
+    overflow: hidden;
+    position: relative
+}
+
+#my_words span {
+    cursor: pointer
+}
+
+.classify, .all_city {
+    width: 23%
+}
+
+.m_time {
+    width: 32%
+}
+
+.hot_rec {
+    width: 10%
+}
+
+.deserve_event {
+ margin-left: 20px;
+}
+
+.title div input, .hot_rec button {
+    color: #fff;
+}
+
+.meeting_time:before, .meeting_time:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: solid;
+    position: absolute;
+    left: 20px;
+    z-index: 999999;
+}
+
+.meeting_time:before {
+    border-color: transparent transparent #ffffff;
+    top: -17px;
+    z-index: 9999999;
+
+}
+
+.meeting_time:after {
+    border-color: transparent transparent #c9cbce;
+    top: -20px;
+}
+
+.meeting_time li a {
+    text-decoration: none;
+
+}
+
+
+
+
+
