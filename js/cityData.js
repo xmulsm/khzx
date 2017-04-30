@@ -3,6 +3,12 @@
  */
 var cityData = {
     hot: [{
+        'pid': 0,
+        'pname': '不限',
+ 'id': 00,
+        'name': '不限'
+    },
+	{
         'pid': 1,
         'pname': '北京',
         'id': 2,
